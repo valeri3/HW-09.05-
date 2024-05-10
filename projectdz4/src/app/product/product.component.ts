@@ -20,7 +20,7 @@ export class ProductComponent implements OnInit {
   products: Product[];
 
   constructor() {
-    this.products = []; // Инициализация пустого массива продуктов
+    this.products = []; 
   }
 
   ngOnInit(): void {
@@ -40,7 +40,6 @@ export class ProductComponent implements OnInit {
         name: 'Мониторы',
         list_text: []
       },
-      // Добавьте остальные продукты по аналогии
       {
         img: '../../assets/images/tovary-dlya-gejmerov.png',
         name: 'Gaming',
